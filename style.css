@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(66, 41, 41);
+  line-height: 25px;
+  text-align: center;
+
+}
+
+
+#title_presentation{
+  color: #C59849;
+  font-family: "Croissant One", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+#follow_them{
+  color: #A6D49F;
+  font-family: Times New Roman;
+}
+
+#free_sport{
+color : black;
+font-size : large;
+}
+
+.card {
+  border: 10px solid rgb(255, 255, 255);
+  border-color: #ffffff;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.container {
+  border: 10px solid transparent;
+  width: 500px;   /* This sets the width */
+  margin: 0 auto;
+}
+
+ul li{
+  display: inline-block;
+  font-size: 40px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+img {
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
